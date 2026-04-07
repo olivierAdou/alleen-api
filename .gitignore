@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+*.js.map
+
+# Prisma generated clients
+node_modules/@prisma/*-client/

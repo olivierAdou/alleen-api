@@ -1,0 +1,40 @@
+{
+    "name": "alleen-api",
+    "version": "0.1.0",
+    "description": "Multi-database Prisma API — powered by @olivierAdou",
+    "private": true,
+    "scripts": {
+        "start:dev": "nest start --watch",
+        "build": "nest build",
+        "start": "node dist/main",
+        "db:add": "alleen db:add",
+        "db:pull": "alleen db:pull",
+        "db:push": "alleen db:push",
+        "db:migrate": "alleen db:migrate",
+        "db:migrate:deploy": "alleen db:migrate:deploy",
+        "db:remove": "alleen db:remove",
+        "db:list": "alleen db:list",
+        "db:generate": "alleen db:generate",
+        "db:generate:client": "alleen db:generate:client"
+    },
+    "dependencies": {
+        "@alleen/core": "^1.0.1",
+        "@alleen/prisma": "^1.0.1",
+        "@nestjs/common": "^10.0.0",
+        "@nestjs/config": "^4.0.3",
+        "@nestjs/core": "^10.0.0",
+        "@nestjs/platform-express": "^10.0.0",
+        "@prisma/client": "^5.0.0",
+        "reflect-metadata": "^0.1.13",
+        "rxjs": "^7.8.0"
+    },
+    "devDependencies": {
+        "@alleen/cli": "^1.0.1",
+        "@nestjs/cli": "^10.0.0",
+        "@types/node": "^20.0.0",
+        "prisma": "^5.0.0",
+        "ts-node": "^10.9.2",
+        "tsx": "^4.0.0",
+        "typescript": "^5.4.0"
+    }
+}
